@@ -42,7 +42,7 @@ jobs:
         run: go test -v ./...
 
   build-app:
-    name: Build Application
+    name: Build go Application
     runs-on: ubuntu-latest
     needs: run-tests
     steps:
